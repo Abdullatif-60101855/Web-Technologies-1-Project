@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<!-- ABDULLATIF ABUZANNAD - 60101855 -->
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contact us- Ghost Encrypt</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" type="image/x-icon" href="../pics/customer-service.png">
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/reset.css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/ultimate.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/contactus.css'>
+    <script src="../JS/contactus.js"></script>
+</head>
+
+<body>
+    <nav>
+        <section id="logo">
+            <h2>Ghost Encrypt</h2>
+        </section>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="contact_us.html">Contact us</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="subscribe.html">Subscribe</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="sub-container">
+            <img src="../pics/mail-box.png">
+            <h3>MAIL BOX</h3>
+            <p>P.O. Box 24449 Doha, Qatar</p>
+        </div>
+        <div class="sub-container">
+            <img src="../pics/phone.png">
+            <h3>PHONE NUMBER</h3>
+            <p>0097444952222</p>
+        </div>
+        <div class="sub-container">
+            <img src="../pics/arroba-sign.png">
+            <h3>EMAIL</h3>
+            <p><a href="mailto:contact@ghostencrypt.com">support@ghostencrypt.com</a></p>
+        </div>
+    </div>
+    <div class="container2">
+        <section class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14421.271128940778!2d51.481075!3d25.360664!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45dcfb2722e9e9%3A0xd1b07d34e11ee6d5!2z2KzYp9mF2LnYqSDYp9mE2K_ZiNit2Kkg2YTZhNi52YTZiNmFINmI2KfZhNiq2YPZhtmI2YTZiNis2YrYpw!5e0!3m2!1sar!2sqa!4v1678727686992!5m2!1sar!2sqa"
+                width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section id="contact-form">
+            <form action="https://sit.cna-qatar.edu.qa/processform.php" method="post" onsubmit="return validateForm()">
+                <fieldset>
+                    <legend>Send us a message:</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                    <br>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5"></textarea>
+                    <br>
+                    <label for="contact-method">Preferred method of contact:</label>
+                    <br>
+                    <input type="radio" id="phone" name="contact-method" value="phone" onclick="validate_MOC_box()">
+                    <label for="phone">Phone</label>
+                    <br>
+                    <input type="radio" id="email" name="contact-method" value="email" onclick="validate_MOC_box()">
+                    <label for="email">Email</label>
+                    <span id="ErrMsg"></span>
+                    <br>
+                    <label for="method of contact" id="LMOC">method of contact:</label>
+                    <input type="text" id="MOC" name="PMOC">
+                    <br>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </fieldset>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <div id="f_logo">
+            <h2>Ghost Encrypt</h2>
+        </div>
+        <div id="items">
+            <div id="1" class="item"><a href="#">About Us</a></div>
+            <div id="2" class="item"><a href="#">Policy</a></div>
+            <div id="3" class="item"><a href="#">Terms & Conditions</a></div>
+        </div>
+    </footer>
+</body>
+
+</html>

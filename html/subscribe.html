@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<!-- ABDULLATIF ABUZANNAD - 60101855 -->
+
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Subscribe- Ghost Encrypt</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" type="image/x-icon" href="../pics/subscribe.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/reset.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/ultimate.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/subscribe.css'>
+    <script src="../JS/subscribe.js"></script>
+</head>
+
+<body>
+    <nav>
+        <section id="logo">
+            <h2>Ghost Encrypt</h2>
+        </section>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="contact_us.html">Contact us</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="subscribe.html">Subscribe</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form action="https://sit.cna-qatar.edu.qa/processform.php" method="post" onsubmit="return validateForm();">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full-name">
+
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <label><input type="checkbox" id="showpass" onclick="displaypassword();">Display Password<label></label>
+
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password">
+                
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="confirm-email">Confirm Email Address:</label>
+                <input type="email" id="confirm-email" name="confirm-email">
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" value="+974">
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob">
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" onclick="calculateAge()">
+            </fieldset>
+
+            <fieldset>
+                <legend>Shipping Information</legend>
+                <label for="building-number">Building Number:</label>
+                <input type="text" id="building-number" name="building-number">
+
+                <label for="street-name">Street Name:</label>
+                <input type="text" id="street-name" name="street-name">
+
+                <label for="city">City:</label>
+                <select id="city" name="city">
+                    <option value="Doha" selected>Doha</option>
+                    <option value="Al Khor">Al Khor</option>
+                    <option value="Al Rayyan">Al Rayyan</option>
+                    <option value="Al Wakrah">Al Wakrah</option>
+                    <option value="Umm Salal">Umm Salal</option>
+                    <option value="Mesaieed">Mesaieed</option>
+                </select>
+
+                <label for="subscribe-newsletter">Subscribe to Newsletter?</label>
+                <input type="checkbox" id="subscribe-newsletter" name="subscribe-newsletter" value="yes">
+            </fieldset>
+
+            <input type="submit" value="Subscribe">
+        </form>
+    </main>
+    <footer>
+        <div id="f_logo">
+            <h2>Ghost Encrypt</h2>
+        </div>
+        <div id="items">
+            <div id="1" class="item"><a href="#">About Us</a></div>
+            <div id="2" class="item"><a href="#">Policy</a></div>
+            <div id="3" class="item"><a href="#">Terms & Conditions</a></div>
+        </div>
+    </footer>
+</body>
+
+</html>
