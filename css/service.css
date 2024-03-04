@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+/* ABDULLATIF ABUZANNAD - 60101855 */
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.card {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  border: 5px solid black;
+}
+
+.card img {
+  width: 128px;
+  height: 128px;
+  margin: auto;
+  padding: auto;
+}
+
+.service-name {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.service-description {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.rating {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.checked {
+  color: orange;
+}
+
+/* Cards Style*/
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.service-name {
+  color: #333;
+}
+
+.service-description {
+  color: #666;
+}
+
+.price {
+  color: #333;
+}
+
+/* .rating {
+    color: #ffb900;
+  } */
+
+.checked {
+  color: #ffb900;
+}
+
+/* Cards Style*/
